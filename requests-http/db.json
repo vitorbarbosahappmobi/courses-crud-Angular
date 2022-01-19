@@ -1,0 +1,28 @@
+{
+  "cursos": [
+    {
+      "id": 1,
+      "nome": "Angular"
+    },
+    {
+      "id": 2,
+      "nome": "CSharp"
+    },
+    {
+      "id": 3,
+      "nome": ".NET"
+    },
+    {
+      "id": 4,
+      "nome": "Angular Material"
+    },
+    {
+      "id": 5,
+      "nome": "Bootstrap"
+    },
+    {
+      "id": 6,
+      "nome": "Git/Github"
+    }
+  ]
+}
