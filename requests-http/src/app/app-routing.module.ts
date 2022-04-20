@@ -7,6 +7,9 @@ const routes: Routes = [
   },
   {
     path: 'cursos', loadChildren: () => import('./cursos/cursos.module').then(module => module.CursosModule)
+  },
+  {
+    path: 'upload', loadChildren: () => import('./upload-file/upload-file.module').then(module => module.UploadFileModule)
   }
 ];
 

@@ -1,0 +1,14 @@
+<div class="mb-3">
+  <label for="formFileSm" class="form-label" id="customLabel">Small file input example</label>
+  <input class="form-control form-control-sm" id="formFileSm" type="file" (change)="onChange($event)" multiple>
+</div>
+<div class="progress">
+  <div class="progress-bar" role="progressbar" [style.width]="progress + '%'">{{ progress }}%</div>
+</div>
+<div style="margin-top: 10px;">
+  <button type="button" class="btn btn-primary" [disabled]="!files" (click)="onUpload()">Upload</button>
+</div>
+<div style="margin-top: 10px;">
+  <button type="button" class="btn btn-primary" (click)="onDownloadExcel()">Download Excel</button>
+  <button type="button" class="btn btn-primary" (click)="onDownloadPDF()">Download PDF</button>
+</div>
